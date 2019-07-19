@@ -4,13 +4,13 @@
 
 ## SpotiTube
 
-* [What is SpotiTube](spotitube/untitled.md)
+* [What is SpotiTube](spotitube/what-is.md)
 
 ## Ashtray
 
-* [What is Ashtray](ashtray/untitled.md)
+* [What is Ashtray](ashtray/what-is.md)
 
 ## CryptoLoacker
 
-* [What is CryptoLoacker](cryptoloacker/untitled.md)
+* [What is CryptoLoacker](cryptoloacker/what-is.md)
 
