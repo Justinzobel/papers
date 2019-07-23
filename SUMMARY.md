@@ -1,16 +1,17 @@
 # Table of contents
 
 * [Papers](README.md)
+* [About](about.md)
 
 ## SpotiTube
 
-* [What is SpotiTube](spotitube/what-is.md)
+* [SpotiTube](spotitube/introduction.md)
 
 ## Ashtray
 
-* [What is Ashtray](ashtray/what-is.md)
+* [Ashtray](ashtray/introduction.md)
 
 ## CryptoLoacker
 
-* [What is CryptoLoacker](cryptoloacker/what-is.md)
+* [CryptoLoacker](cryptoloacker/introduction.md)
 
