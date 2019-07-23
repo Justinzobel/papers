@@ -9,15 +9,12 @@
 
 ## Projects
 
-* [Projects](projects/index/README.md)
-  * [SpotiTube](projects/index/spotitube/README.md)
-    * [Specification](projects/index/spotitube/specification.md)
-    * [Documentation](projects/index/spotitube/documentation.md)
-    * [Roadmap](projects/index/spotitube/roadmap.md)
-    * [Changelog](projects/index/spotitube/changelog.md)
-    * [FAQs](projects/index/spotitube/faqs.md)
-  * [Ashtray](projects/index/ashtray.md)
-  * [Cryptoloacker](projects/index/cryptoloacker.md)
+* [Ashtray](projects/ashtray/README.md)
+  * [Specification](projects/ashtray/specification.md)
+  * [Documentation](projects/ashtray/documentation.md)
+  * [Roadmap](projects/ashtray/roadmap.md)
+  * [Changelog](projects/ashtray/changelog.md)
+  * [FAQs](projects/ashtray/faqs.md)
 
 ## Adventures of a geek <a id="blog"></a>
 
