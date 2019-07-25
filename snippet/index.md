@@ -1,2 +1,0 @@
-# Heritage of a geek
-

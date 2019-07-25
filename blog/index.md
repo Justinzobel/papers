@@ -1,2 +1,0 @@
-# Adventures of a geek
-

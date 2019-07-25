@@ -16,11 +16,3 @@
   * [Components and Packages](projects/ashtray/components/README.md)
     * [Pantheon Desktop](projects/ashtray/components/pantheon-desktop.md)
 
-## Adventures of a geek <a id="blog"></a>
-
-* [Adventures of a geek](blog/index.md)
-
-## Heritage of a geek <a id="snippet"></a>
-
-* [Heritage of a geek](snippet/index.md)
-
