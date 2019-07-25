@@ -10,6 +10,7 @@
 ## Projects
 
 * [Ashtray](projects/ashtray/README.md)
+  * [About](projects/ashtray/about.md)
   * [Specification](projects/ashtray/specification.md)
   * [Documentation](projects/ashtray/documentation.md)
   * [Roadmap](projects/ashtray/roadmap.md)
