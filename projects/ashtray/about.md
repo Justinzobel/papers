@@ -18,8 +18,6 @@ The most important component hosted on this repository is Pantheon Desktop, whic
 >
 > Pantheon, like Cinnamon, XFCE, etc. will never be supported or provided by us.
 
-## 
-
 ### 
 
 
