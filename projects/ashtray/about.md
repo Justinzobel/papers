@@ -10,7 +10,9 @@ This private repository was born by the need of having a place where to put cust
 
 The most important component hosted on this repository is Pantheon Desktop, which is the product developed by the [Elementary OS](https://elementary.io) team and which wasn't to be included on Solus-Project repository due to [legitimate reasons](https://discuss.getsol.us/d/1500-how-to-generate-custom-iso/12).
 
-## Installation
+## Getting started
+
+### Installation
 
 As any other Solus-Project handled repository, you can use `eopkg *-repo` subcommands to handle this one. Hence, the installation instruction is pretty straightforward:
 
@@ -23,6 +25,8 @@ If you want it to point to a specific GitHub release - represented by the `$TAG`
 ```text
 eopkg add-repo streambinder https://github.com/streambinder/ashtray/releases/download/$TAG/eopkg-index.xml.xz
 ```
+
+You may notice in the first case `solus.davidepucci.it` host name gets used, while in the latter you would be pointing directly to the GitHub repository: the repository is actually hosted on GitHub and not anywhere else, but I get more in depth about this on a dedicated page.
 
 ### Uninstall
 

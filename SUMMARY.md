@@ -11,11 +11,9 @@
 
 * [Ashtray](projects/ashtray/README.md)
   * [About](projects/ashtray/about.md)
-  * [Specification](projects/ashtray/specification.md)
-  * [Documentation](projects/ashtray/documentation.md)
-  * [Roadmap](projects/ashtray/roadmap.md)
-  * [Changelog](projects/ashtray/changelog.md)
-  * [FAQs](projects/ashtray/faqs.md)
+  * [Infrastructure](projects/ashtray/infrastructure.md)
+  * [Components](projects/ashtray/components/README.md)
+    * [Pantheon Desktop](projects/ashtray/components/pantheon-desktop.md)
 
 ## Adventures of a geek <a id="blog"></a>
 
