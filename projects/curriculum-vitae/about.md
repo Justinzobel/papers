@@ -4,13 +4,13 @@ description: What? A CV on GitHub?
 
 # About
 
-Yup. I host my LaTeX CV on a dedicated repository on GitHub and release every version of it using dedicated _Releases_. I really enjoyed the idea to review it as a coding project, making it buildable as a common project using `make` and release its binary version - the PDF.
+Yup. I host my LaTeX CV on a dedicated repository on GitHub and release every version of it using dedicated _Releases_. I really enjoyed the idea to review it as a coding project, making it buildable as a common project using `make` and release its binary \(PDF\) version.
 
-It's pretty easy: `tex` files get built using `pdflatex` into a `pdf` and released everytime I have something new to put inside the CV. But it's not all about this. I actually organized the _code_ to handle two problems explained below.
+Basically, `tex` files get built using `pdflatex` into `pdf` and released everytime I have something new to put in my CV. But it's not all about this: keep reading below how this actually became a real buildable project.
 
-## Document templating
+## Templating
 
-The first issue I faced was about few companies being very strict on the CV format, hence asking for the [EuroPass](https://europass.cedefop.europa.eu/it/documents/curriculum-vitae/templates-instructions/templates/doc) one, for example. On the other hand, I really enjoyed _my_ custom format and didn't want to just drop it. And what if another company would have come asking for a CV formatted following another one format?
+The first issue I faced was about few companies being very strict on the allowed CV format, hence asking for the [EuroPass](https://europass.cedefop.europa.eu/it/documents/curriculum-vitae/templates-instructions/templates/doc) one, for example. On the other hand, I really enjoyed _my_ custom format and didn't want to just drop it. And what if another company would have come asking for a CV formatted following another format?
 
 All of this lead me considering templating my documents: many `tex` files as many formats I wanted to support and a single _database_ file keeping the informations used to fill the templates.
 
@@ -29,13 +29,13 @@ In order to do that I opted for using a simple `json` structured file collecting
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
-Once I got my database populated with all my CV informations, I revised the `tex` templates to replace all the informations occurrences with `{{key_X}}` corresponding database keyword.
+Once I got my database populated with all my CV informations, I revised the `tex` templates to replace all the informations occurrences with the specific `{{key_X}}` corresponding database keyword.
 
-Using `jq` command I iterated over the `keys.json` file entries to export any key as a shell environment key, then using a nice tool called [`mush`](https://github.com/jwerle/mush) I replaced any `{{key_X}}` corresponding to an environment key with the same name with its value. A simple `pdflatex` command was needed at that moment and _tada!_, my custom / _EuroPass_ was ready for an application.
+Using `jq` command I iterated over the `keys.json` file entries to export any key as a shell environment key and, using a nice tool called [`mush`](https://github.com/jwerle/mush)`,` I replaced any `{{key_X}}` with its correponding value. A simple `pdflatex` command was needed then to have both my custom and my _EuroPass_ CVs ready for an application.
 
-## Multiple internationalized documents
+## Internationalization
 
-The latter issue I wanted to fix was the internationalization. The idea behind the solution above needed to be pushed further on.
+The second issue I wanted to fix was the internationalization. The idea behind the solution explained above for the templating problem needed to be pushed further on.
 
 `keys.json` evolved to support multiple languages or a single default value \(used for any language\):
 
