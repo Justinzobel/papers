@@ -11,7 +11,7 @@ To download latest version, please, reach latest GitHub repository release by cl
 Otherwise, if you want to grab it from the shell \(or in any other way you prefer\), you can use \(or adapt\) the following snippet:
 
 ```bash
-lang="it"
+lang="en"
 variant="europass"
 release="https://github.com/streambinder/curriculum-vitae/releases/latest"
 origin="$(curl -I "${release}" | \
