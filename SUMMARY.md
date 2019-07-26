@@ -15,4 +15,7 @@
   * [Infrastructure](projects/ashtray/infrastructure.md)
   * [Components and Packages](projects/ashtray/components/README.md)
     * [Pantheon Desktop](projects/ashtray/components/pantheon-desktop.md)
+* [Curriculum Vitæ](projects/curriculum-vitae/README.md)
+  * [About](projects/curriculum-vitae/about.md)
+  * [Download](projects/curriculum-vitae/download.md)
 
