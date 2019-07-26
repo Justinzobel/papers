@@ -9,6 +9,7 @@
 
 ## Projects
 
+* [Projects](projects/index.md)
 * [Ashtray](projects/ashtray/README.md)
   * [About](projects/ashtray/about.md)
   * [Get started](projects/ashtray/get-started.md)
