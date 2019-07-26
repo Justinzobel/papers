@@ -41,7 +41,7 @@ This section resumes what was outlined in the [About page](about.md#installation
 
 Basically, the whole repository is hosted on GitHub: the packages templates and build instructions in the Git repository itself, while the built `eopkg` files and the indexes are kept in dedicated repository releases.
 
-The issue I faced were the following:
+The issues I faced were the following:
 
 1. the repository URL was way too long and complicated to be easily remembered;
 2. `eopkg` repository management does not support repository URL redirections: this means `github.com/streambinder/ashtray/releases/latest` could not be used as repository URL and that the only way to offer the repository without additional headaches was to create a single fixed release, which would have been filled with any package updates everytime it was needed.
