@@ -12,6 +12,7 @@
 * [Projects](p/index.md)
 * [Spotitube](p/spotitube/README.md)
   * [About](p/spotitube/about.md)
+  * [Installation](p/spotitube/installation.md)
 * [Ashtray](p/ashtray/README.md)
   * [About](p/ashtray/about.md)
   * [Get started](p/ashtray/get-started.md)
