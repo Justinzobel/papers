@@ -7,16 +7,16 @@
 * [About](about/about.md)
 * [Contacts](about/contacts.md)
 
-## Projects
+## Projects <a id="+"></a>
 
-* [Projects](projects/index.md)
-* [Ashtray](projects/ashtray/README.md)
-  * [About](projects/ashtray/about.md)
-  * [Get started](projects/ashtray/get-started.md)
-  * [Infrastructure](projects/ashtray/infrastructure.md)
-  * [Components and Packages](projects/ashtray/components/README.md)
-    * [Pantheon Desktop](projects/ashtray/components/pantheon-desktop.md)
-* [Curriculum Vitæ](projects/curriculum-vitae/README.md)
-  * [About](projects/curriculum-vitae/about.md)
-  * [Download](projects/curriculum-vitae/download.md)
+* [Projects](+/index.md)
+* [Ashtray](+/ashtray/README.md)
+  * [About](+/ashtray/about.md)
+  * [Get started](+/ashtray/get-started.md)
+  * [Infrastructure](+/ashtray/infrastructure.md)
+  * [Components and Packages](+/ashtray/components/README.md)
+    * [Pantheon Desktop](+/ashtray/components/pantheon-desktop.md)
+* [Curriculum Vitæ](+/curriculum-vitae/README.md)
+  * [About](+/curriculum-vitae/about.md)
+  * [Download](+/curriculum-vitae/download.md)
 
