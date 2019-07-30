@@ -13,6 +13,7 @@
 * [Spotitube](p/spotitube/README.md)
   * [About](p/spotitube/about.md)
   * [Installation](p/spotitube/installation.md)
+  * [Engineering](p/spotitube/engineering.md)
 * [Ashtray](p/ashtray/README.md)
   * [About](p/ashtray/about.md)
   * [Get started](p/ashtray/get-started.md)
