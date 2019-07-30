@@ -10,6 +10,8 @@
 ## Projects <a id="p"></a>
 
 * [Projects](p/index.md)
+* [Spotitube](p/spotitube/README.md)
+  * [About](p/spotitube/about.md)
 * [Ashtray](p/ashtray/README.md)
   * [About](p/ashtray/about.md)
   * [Get started](p/ashtray/get-started.md)
