@@ -16,7 +16,7 @@
   * [Infrastructure](p/ashtray/infrastructure.md)
   * [Components and Packages](p/ashtray/components/README.md)
     * [Pantheon Desktop](p/ashtray/components/pantheon-desktop.md)
-* [Curriculum Vitæ](p/curriculum-vitae/README.md)
-  * [About](p/curriculum-vitae/about.md)
-  * [Download](p/curriculum-vitae/download.md)
+* [Curriculum Vitæ](p/resume/README.md)
+  * [About](p/resume/about.md)
+  * [Download](p/resume/download.md)
 
