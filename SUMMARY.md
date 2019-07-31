@@ -14,6 +14,7 @@
   * [About](p/spotitube/about.md)
   * [Installation](p/spotitube/installation.md)
   * [Engineering](p/spotitube/engineering.md)
+  * [FAQ](p/spotitube/faq.md)
 * [Ashtray](p/ashtray/README.md)
   * [About](p/ashtray/about.md)
   * [Get started](p/ashtray/get-started.md)
