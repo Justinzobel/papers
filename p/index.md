@@ -1,5 +1,5 @@
 ---
-description: Page description
+description: Explore my projects
 ---
 
 # Projects

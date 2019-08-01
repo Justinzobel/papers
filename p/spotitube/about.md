@@ -11,7 +11,7 @@ Impressive description apart, Spotitube is a CLI application to programmatically
 This project was born as per two needs:
 
 1. I wanted to learn some _GO-lang_ basics.
-2. I needed to automate the process of synchronize the songs I wanted to download. This process is composed by several phases:
+2. I needed to automate the process of synchronize the songs I wanted to download, which was composed by the following phases:
    * Keep track of music I want to download
    * Find the best song file I can
    * Download it
