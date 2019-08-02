@@ -12,7 +12,7 @@ For Solus-Project, RedHat-based, Debian-based distributions users, there's an in
 
 ### Dependencies
 
-| Dependency | Version | Dependency type |
+| Dependency | Version | Type |
 | :--- | :--- | :--- |
 | `youtube-dl` | _none in particular_ | Runtime |
 | `ffmpeg` | _none in particular_ | Runtime |
@@ -35,7 +35,7 @@ For the ones moving this way, keep in mind:
 1. `SPOTIFY_KEY` is associated to `SPOTIFY_ID`: if you create your own app, remember to override both values provided to you by Spotify developers dashboard. In order to do so, keep in mind these points:
    1. During the compilation phase, if `SPOTIFY_KEY` and `SPOTIFY_ID` variables are shell-exported as environment keys, the `Makefile` will hardcode them into the binary.
    2. If no environment key is found, the resulting binary will need ones everytime its getting executed \(still, as environment keys\).
-2. By default, the application is coded to use the following redirect URI:
+2. By default, the application is coded to use the following redirect URIs:
 
    1. `http://127.0.0.1:8080/callback`
    2. `http://localhost:8080/callback`
@@ -43,25 +43,35 @@ For the ones moving this way, keep in mind:
 
    Assure you configure your Spotify application to allow them.
 
-Finally, building Spotitube is pretty easy:
+### Effective build
 
-```text
+```bash
 git clone https://github.com/streambinder/spotitube
 cd spotitube
-# the following SPOTIFY_ID and SPOTIFY_KEY are bogus
-# read the "Spotify application keys" section for further informations
-SPOTIFY_ID=YJ5U6TSB317572L40EMQQPVEI2HICXFL SPOTIFY_KEY=4SW2W3ICZ3DPY6NWC88UFJDBCZJAQA8J make
-# to install system-wide
+make
+```
+
+The resulting binary will be placed inside newly created `./out` folder. If you want to install it widely in the system:
+
+```bash
 sudo make install
-# otherwise you'll find the binary inside ./bin
+```
+
+#### Passing Spotify API credentials
+
+```bash
+# the following SPOTIFY_ID and SPOTIFY_KEY are bogus
+SPOTIFY_ID=YJ5U6TSB317572L40EMQQPVEI2HICXFL \
+    SPOTIFY_KEY=4SW2W3ICZ3DPY6NWC88UFJDBCZJAQA8J \
+    make
 ```
 
 ### Running on Windows
 
 1. Install [GnuWin32](https://sourceforge.net/projects/gnuwin32/files/make/3.81/make-3.81.exe/download)
 2. Create a folder `Spotitube` wherever you want
-3. Download [`youtube-dl`](https://ytdl-org.github.io/youtube-dl/download.html) ``and place it inside the `Spotitube` folder
-4. Download [`ffmpeg`](https://ffmpeg.zeranoe.com/builds/) \(choose the `shared` version\) and place it inside the `Spotitube` folder 
-5. Download latest Spotitube `exe` variant release and place it inside the `Spotitube` folder
+3. Download [`youtube-dl`](https://ytdl-org.github.io/youtube-dl/download.html) and place it inside `Spotitube` folder
+4. Download [`ffmpeg`](https://ffmpeg.zeranoe.com/builds/) \(choose the `shared` version\) and place it inside `Spotitube` folder 
+5. Download latest Spotitube `exe` variant release and place it inside `Spotitube` folder
 6. Enter `Spotitube` folder using GnuWin32 and enjoy Spotitube
 

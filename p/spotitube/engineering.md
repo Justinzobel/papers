@@ -8,15 +8,15 @@ description: What's behind Spotitube?
 
 The solution I wrote to automate the process is covered by three major components:
 
-1. _Spotify_
+1. **Authentication and data fetching phase:** _**Spotify**_
 
    This component, once authenticated, is used to keep track of the music to synchronize \(both via library or a playlist\) and as database for the metadata to apply to every downloaded _mp3_.
 
-2. _YouTube_:
+2. **Searching phase:** _**YouTube**_
 
    This one is our free music shop, used to be queried to give us the best video it owns about the songs we're looking for. Once found, that one gets downloaded using a combination of `youtube-dl` and `ffmpeg` commands.
 
-3. Lyrics provider \(_Genius_ or _lyrics.ovh_\):
+3. **Lyrics fetching phase: lyrics providers, such as** _**Genius**_ **or** _**lyrics.ovh**_
 
    You will go through this component if you'll enable automatic songs lyrics fetch: _Spotify_ informations about song will be used to find lyrics provided by two entities: _Genius_ and, eventually, if the first one doesn't own it, _lyrics.ovh_.
 
