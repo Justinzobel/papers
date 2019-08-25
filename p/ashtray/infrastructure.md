@@ -27,10 +27,19 @@ Also, in order to make the whole process work, `solbuild` \(the tool used to bui
 {% code-tabs %}
 {% code-tabs-item title="main-x86\_64.profile" %}
 ```text
-[repo.local-build-repository]
+remove_repos = ['Solus']
+add_repos = ['Local','Ashtray','Solus']
+
+[repo.Local]
 uri = "/path/to/ashtray/bin"
 local = true
 autoindex = true
+
+[repo.Ashtray]
+uri = "https://solus.davidepucci.it/eopkg-index.xml.xz"
+
+[repo.Solus]
+uri = "https://mirrors.rit.edu/solus/packages/shannon/eopkg-index.xml.xz"
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
