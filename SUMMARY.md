@@ -25,6 +25,7 @@
   * [Infrastructure](p/ashtray/infrastructure.md)
   * [Components and Packages](p/ashtray/components/README.md)
     * [Pantheon Desktop](p/ashtray/components/pantheon-desktop.md)
+    * [XFCE4 Desktop](p/ashtray/components/xfce4-desktop.md)
 * [Curriculum Vitæ](p/resume/README.md)
   * [About](p/resume/about.md)
   * [Download](p/resume/download.md)
