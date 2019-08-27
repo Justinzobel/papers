@@ -27,6 +27,7 @@
     * [Pantheon Desktop](p/ashtray/components/pantheon-desktop.md)
     * [XFCE4 Desktop](p/ashtray/components/xfce4-desktop.md)
     * [Cinnamon Desktop](p/ashtray/components/cinnamon-desktop.md)
+    * [LXQt Desktop](p/ashtray/components/lxqt-desktop.md)
 * [Curriculum Vitæ](p/resume/README.md)
   * [About](p/resume/about.md)
   * [Download](p/resume/download.md)
