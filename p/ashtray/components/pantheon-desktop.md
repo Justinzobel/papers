@@ -4,6 +4,8 @@ description: The default desktop environment of Elementary OS
 
 # Pantheon Desktop
 
+![Pantheon Desktop](../../../.gitbook/assets/desktop.pantheon.jpg)
+
 ## Installation
 
 The whole component can be easily installed using `-c` component switch offered by `eopkg`:
