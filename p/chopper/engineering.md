@@ -26,6 +26,7 @@ The chunk upload phase is actually depending on the provider the chunk is being 
 
 In fact, every storage provider is extending a generic \(and abstract\) `Provider` class which imposes to define many methods, such as the most important `upload()` and `download()` ones, but also many others to make them be properly handled by the whole process, such as the following:
 
+* `enabled()`: used to indicate whether the provider is usable or not
 * `nice_name()`: used to represent in a human-readable way the provider
 * `is_supporting()`: used to ask a provider if it's actually able to handle a URI to download content \(chunks\) from it
 * `max_chunk_size()`: used to indicate the maximum byte size sequence allowed by the provider
