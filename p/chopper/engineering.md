@@ -4,16 +4,18 @@ description: What's behind Chopper?
 
 # Engineering
 
-Chopper operates in two different modes: _chopping_ and _glueing_ mode. Since the latter is very easy and most of the engineering is rely in the first one, that will be ignored.
+Chopper operates in two different modes: _chopping_ and _glueing_ mode. Since the latter is very easy and most of the engineering relies on the first one, that will be ignored.
 
 ## `Knife`ing
 
 The first part of the process relies on chopping the file in several chunks, whose size depends on which storage provider is going to be used.
 
-Basically, Chopper will use `Knife` component to always request another chunk: this chunk is a byte sequence translated to simple text using _base85_ algorithm: this means, for example, that for every 1024 bytes of file data \(regardless of whether it is a binary or a simple text file\) requested, `Knife` will provide 1024 bytes of _base85_ encoded text, which means effective file data of this size:
+Basically, Chopper will use `Knife` component to always request another chunk: this chunk is a byte sequence. In case of binary files, this chunk is translated to simple text using _base85_ algorithm. The single drawback of this, is that it results in a bigger overall file size. For instance, for every 1024 bytes of binary data requested, `Knife` will provide 1280 bytes of _base85_ encoded text.
+
+The consequence, in case of binary files, is that for every X file data requested for a chunk, the effective payload will be slightly bigger:
 
 $$
-X*4/5
+(X/4)*5
 $$
 
 That's because _base85_ algorithm needs an additional byte for every 4 bytes it's going to encode.
@@ -65,7 +67,8 @@ A manifest is a _base64_ encoded content which represents a JSON structured this
         }
 
     ],
-    "filename": "file.md"
+    "filename": "file.md",
+    "binary": True
 }
 ```
 {% endcode-tabs-item %}
