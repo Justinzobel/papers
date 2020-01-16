@@ -23,6 +23,7 @@
   * [About](p/ashtray/about.md)
   * [Get started](p/ashtray/get-started.md)
   * [Infrastructure](p/ashtray/infrastructure.md)
+  * [Solbump](p/ashtray/solbump.md)
   * [Components and Packages](p/ashtray/components/README.md)
     * [Pantheon Desktop](p/ashtray/components/pantheon-desktop.md)
     * [XFCE4 Desktop](p/ashtray/components/xfce4-desktop.md)
