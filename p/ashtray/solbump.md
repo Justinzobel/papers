@@ -10,6 +10,24 @@ Based on the amount of defined \(and pluggable\) providers, it tries to recogniz
 
 ## Usage
 
+Before starting using the tool, further actions need to be taken, in order to access all its capabilities. In fact, few providers could be in the need of API tokens or specific configurations. So create the configuration file and, depending on your needs, fill it with data you own:
+
+{% code title="~/.config/solbump" %}
+```text
+# To obtain the token, go to:
+# https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line#creating-a-token
+# Solbump does not require any scope to be enabled.
+github:
+    api: habmfnlzrwmxuopmjganlqfpmccouxieijlouxcl
+
+# To obtain the token, go to:
+# https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html
+# Solbump requires only the API access scope enablement.
+gitlab:
+    api: hmlhnbzndrogcifs-akb
+```
+{% endcode %}
+
 Using the tool is pretty straightforward:
 
 ```text
