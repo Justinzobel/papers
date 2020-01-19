@@ -16,6 +16,6 @@ Head to Chopper releases page to fetch latest binary file.
 
 ```bash
 git clone https://github.com/streambinder/chopper.git
-python3 src/main.py -h
+python3 chopper/src/main.py -h
 ```
 
